@@ -1,0 +1,11 @@
+Procedure:
+Connect Sensors to Arduino Uno:
+Wire the accelerometer sensor (ADXL335) and heart rate sensor (MAX30102) to the Arduino Uno using jumper wires and a breadboard. Ensure proper connections to power, ground, and data pins on the Arduino.
+Install Libraries:
+Install the necessary libraries for the accelerometer and heart rate sensor in the Arduino IDE. These libraries provide functions to easily interface with the sensors.
+Write Arduino Sketch:
+Write the Arduino sketch (code) to read data from the accelerometer and heart rate sensor. Use the provided functions from the sensor libraries to initialize the sensors and read sensor data.
+Process Sensor Data:
+Process the sensor data to extract relevant information. For the accelerometer, you can measure movement and orientation. For the heart rate sensor, you can monitor the user's heart rate.
+Display Data:
+Optionally, you can display the sensor data on a connected computer using the Arduino IDE serial monitor or on an external display (e.g., OLED screen) connected to the Arduino Uno.
